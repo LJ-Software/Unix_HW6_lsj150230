@@ -15,7 +15,7 @@ SRCFILES = main.cc
 # Variables for C++ compiler
 CXX = g++
 CC = $(CXX)
-CXXFLAGS = -g -Wall -static
+CXXFLAGS = -g -Wall
 CCFLAGS = $(CXXFLAGS)
 CPPFLAGS = -I. -I$(INCLUDEDIR)
 
